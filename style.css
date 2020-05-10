@@ -1,0 +1,501 @@
+/*
+	Theme Name: Omiotu
+*/
+
+/*------------------------------------*\
+    MAIN
+\*------------------------------------*/
+
+body {
+font-family: 'Open Sans', sans-serif;
+background-color:#6d6e70;
+letter-spacing:0.221em;	
+margin-bottom: 60px;
+font-size:10px;
+}
+
+.dont-break-out {
+
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+
+}
+
+#swipebox-overlay{background:#6d6e70}
+
+@font-face {
+  font-family: 'LetterGothicMTStd';
+  src: url('fonts/LetterGothicMTStd.eot?#iefix') format('embedded-opentype'),  url('fonts/LetterGothicMTStd.otf')  format('opentype'),
+	     url('fonts/LetterGothicMTStd.woff') format('woff'), url('fonts/LetterGothicMTStd.ttf')  format('truetype'), url('fonts/LetterGothicMTStd.svg#LetterGothicMTStd') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media (min-width:1436px){.container{width:1306px}}
+
+
+
+html {
+  position: relative;
+  min-height: 100%;
+  
+}
+
+.upper {
+text-transform:uppercase;	
+}
+
+
+
+body > .container {
+  padding: 165px 0px 60px 0px;
+}
+
+
+
+
+.footer {
+  position: absolute !important;
+  bottom: 0px;
+  letter-spacing:0.12em;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background:#ffffff url("img/bgdots1.png") 0% 0% no-repeat;
+}
+
+.footer .container {
+margin-top:20px;	
+}
+
+
+
+a {
+color:#000000;	
+}
+
+.btn-subscribe {
+background-color:#9be1f9;	
+}
+.single a {
+color:#9be1f9;	
+}
+
+a:active,a:focus {
+    outline: none;
+}
+
+a:hover {
+color:#42ccfc;	
+text-decoration:none;
+}
+
+
+.navbar-white {
+border-bottom:solid 0px #ffffff;
+background:#ffffff url("img/bgdots1.png") 0% 100% no-repeat;
+border-radius:0px;	
+height:95px;
+
+}
+
+.btn-my {
+margin-top:48px;
+font-family: 'Open Sans', sans-serif;
+letter-spacing:0.221em;
+padding:0px 10px;
+height:24px !important;
+text-shadow:none;
+font-size:10px;
+border-radius:0px;background:#ececed;border:1px solid #ececed;color:#6f7072;	
+}
+
+.fb {
+margin-top:50px;
+float:right;	
+}
+
+.container {
+position:relative;
+
+}
+
+.navbar-brand {
+	margin:0px;padding:0px;
+margin-top:48px;
+position:relative;
+left:0px;
+margin-right:10px;
+width:35px;
+height:24px;
+
+background:#ffffff url('img/logo-omiotu.png') 0 0 no-repeat;
+
+	}
+	
+.navbar-brand:hover {
+background:#ffffff url('img/logo-omiotu-hover.png') 0 0 no-repeat;	
+}
+	
+	.search {
+	margin-top:48px;
+	position:relative;
+	z-index:99;	
+	font-size:10px;
+	clear:both;
+	}
+	
+	#wpls--input  {
+	height:24px !important;	
+	font-size:10px !Important;
+	letter-spacing:0.221em;
+border-radius:0px !important;background:#ececed;border:1px solid #ececed;color:#6f7072;	
+
+	}
+	
+	::-webkit-input-placeholder {
+color:#6f7072;
+letter-spacing:0.221em;
+font-family: 'Open Sans', sans-serif;
+font-size:10px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  color:#6f7072;
+  letter-spacing:0.221em;
+font-family: 'Open Sans', sans-serif;
+font-size:10px;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color:#6f7072; 
+   letter-spacing:0.221em;
+font-family: 'Open Sans', sans-serif;
+font-size:10px;
+}
+
+:-ms-input-placeholder {  
+color:#6f7072;  
+letter-spacing:0.221em;
+font-family: 'Open Sans', sans-serif;
+font-size:10px;
+}
+	
+	#wpls--input {
+	width:100%;
+	
+	}
+@media (min-width:992px){	
+	
+	.collapse{display:block !important}
+	
+	
+}
+	
+@media (min-width:1050px){
+.navbar-brand {
+	
+left:-90px;
+
+
+	}
+	
+	.container {
+	left:25px;		
+	}
+	.write-me,.navbar-brand-text {
+
+left:-90px;	
+
+}
+
+
+}
+
+
+	
+.write-me,.navbar-brand-text {
+	display:block;
+margin-top:48px;
+float:left;
+position:relative;	
+height:24px;
+font-size:10px;
+color:#000000;
+letter-spacing:0.4em;
+/*background:#ffffff url("../img/letter.png") 0% 0% no-repeat;*/
+}
+
+.navbar-brand-text {
+margin-top:60px;
+height:auto;	
+}
+@media (max-width:1050px){
+	
+}
+
+
+.navbar-brand-text .tomi {
+color:#cccccc !Important;	
+}
+
+
+
+.write-me img {
+vertical-align:baseline;
+margin-right:10px;	
+}
+
+
+
+h2,h1, .collapselink,.collapselink:active{
+color:#ececed !important;
+margin:0px;
+text-transform:uppercase;
+	font-size:10px;
+	letter-spacing:0.330em;
+	font-weight:300;
+	margin-bottom:15px;
+	text-decoration:none !Important;
+	display:block;
+}
+
+.grey {
+color:#ececed;	
+}
+
+.black {
+color:#000000;	
+}
+
+.breadcrumbs {
+color:#000000;		
+}
+.homeimage {
+margin-bottom:15px;	
+}
+
+.inner {
+margin-right:20px;	
+}
+
+
+.first-col,.second-col,.third-col {position:relative;min-height:1px;padding-left:8px;
+padding-right:7px;float:left;margin-bottom:15px;}
+
+
+
+.first-col {
+width:20%;	
+white-space:nowrap;
+}
+
+.second-col {
+width:5%	
+}
+
+.third-col {
+width:70%;
+	
+}
+
+@media (max-width:650px){ 
+.first-col {
+width:25%;	
+}
+
+.second-col {
+width:5%	
+}
+
+.third-col {
+width:60%;
+	
+}
+
+}
+.small {
+font-size:10px;	
+}
+
+.single {
+	
+}
+
+.mono {
+}
+
+.description {
+margin-bottom:80px;	
+}
+.text {
+margin-bottom:30px;	
+font-family:'LetterGothicMTStd',"Courier New",monospace !Important;	
+color:#000000;
+font-size:11px;
+letter-spacing:0.1em;
+
+}
+
+.wpls--item-title {
+font-size:12px !important;	
+}
+
+.fb-footer {
+
+
+display:none;	
+}
+
+.leben-footer {
+text-align:right;
+float:right;
+	
+}
+
+@media (max-width:991px){
+	
+	.inner {
+margin-right:0px;	
+}
+	.navbar-white {
+	
+height:135px;
+
+}
+
+.footer {
+height:90px;	
+font-size:9px;
+}
+
+body > .container {
+  padding: 195px 0px 60px 0px;
+}
+
+.description {
+margin-bottom:30px;	
+}
+
+.btn-my {
+margin-top:15px;
+
+}
+
+.fb {
+margin-top:15px;
+
+}
+
+.write-me {
+
+	float:left;
+margin-top:15px;
+
+}
+
+
+
+
+.navbar-brand {
+
+margin-top:15px;
+
+	}
+	
+	.navbar-brand-text {
+
+float:none;
+left:-7px;
+
+	}
+	
+	.search {
+		
+	margin-top:15px;
+	position:relative;
+	left:-7px;
+	}
+	.fb {
+	display:none;	
+	}
+	.fb-footer {
+	display:block;
+	position:absolute;
+	top:0px;	
+	right:10px;
+	}
+	
+	.leben-footer {
+	display:none;	
+	}
+}
+
+@media (max-width:767px){
+.search,.navbar-brand-text {
+		
+	
+	left:0px;
+	}
+	
+.my-container {
+overflow:hidden;
+margin:0px 10px;	
+}
+}
+.footer-center {
+	
+margin:0 auto;
+}
+
+@media (min-width:992px){
+	.footer-center {
+width:520px;	
+position:relative;
+right:120px;
+}
+
+
+
+.line-dots {
+	  background:#ffffff url("img/cc-bkg.png") 10px 16px no-repeat;
+	  text-align:right;
+}
+}
+
+@media (max-width:900px){
+	.footer-center {
+padding-right:30px !Important;
+
+}
+
+
+.line-dots span {
+background-color:#ffffff;	
+}
+
+.line-dots a,.line-dots a:visited {
+color:#00c2fb !Important;	
+}
+
+	
+
+
+
+
+
+
+
