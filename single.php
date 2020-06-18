@@ -100,13 +100,13 @@ if (have_posts()):
                                 if (1==1 || $image['description']!="nolightbox" && $image['width']<1500 && $image['height']<1500):
                             ?>
                                     <a href="<?php echo $image['url']; ?>" data-rel="lightbox" title="<?php echo $image['caption']; ?>">
-                                        <img class="img-responsive homeimage" src="<?php echo $image['sizes']['homeimage']; ?>" alt="<?php echo $image['alt']; ?>" />
+                                        <img class="img-responsive homeimage" src="<?php echo $image['sizes']['large']; ?>" alt="<?php echo $image['alt']; ?>" />
                                     </a>
                             <?php
                                 else:
                             ?>
                                     <a href="<?php bloginfo('url')?>/?attachment_id=<?php echo $image['ID'];?>" title="<?php echo $image['caption']; ?>" class="view-full-size">
-                                        <img class="img-responsive homeimage" src="<?php echo $image['sizes']['homeimage']; ?>" alt="<?php echo $image['alt']; ?>" />
+                                        <img class="img-responsive homeimage" src="<?php echo $image['sizes']['large']; ?>" alt="<?php echo $image['alt']; ?>" />
                                     </a>
                             <?php
                                 endif;
