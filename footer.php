@@ -27,33 +27,35 @@
   <div class="modal fade" id="emailsubscribe" tabindex="-1" role="dialog">
     <div class="modal-dialog">
       <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title">Email notifications</h4>
-        </div>
-
-        <div class="modal-body">
-          <p>
-            leave your name and e-mail an get my newsletter.
-            no worries it will come max. once a month..
-          </p>
-          <div id="es_msg_pg"></div>
-          <div class="form-group">
-            <label >Name</label>
-            <input class="es_textbox_class form-control " name="es_txt_name_pg" id="es_txt_name_pg" value="" maxlength="225" type="text">
+        <form class="es_shortcode_form" data-es_form_id="es_shortcode_form">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Email notifications</h4>
           </div>
 
-          <div class="form-group">
-            <label >Email</label>
-            <input class="form-control es_textbox_class" name="es_txt_email_pg" id="es_txt_email_pg" onkeypress="if(event.keyCode==13) es_submit_pages('<?php echo get_home_url(); ?>')" value="" maxlength="225" type="text">
-          </div>
-          <input name="es_txt_group_pg" id="es_txt_group_pg" value="" type="hidden">
-        </div>
+          <div class="modal-body">
+            <p>
+              leave your name and e-mail an get my newsletter.
+              no worries it will come max. once a month..
+            </p>
+            <div id="es_msg_pg"></div>
+            <div class="form-group">
+              <label >Name</label>
+              <input class="es_textbox_class form-control " name="es_txt_name_pg" id="es_txt_name_pg" value="" maxlength="225" type="text">
+            </div>
 
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          <button type="button" name="es_txt_button_pg" id="es_txt_button_pg" onclick="return es_submit_pages('<?php echo get_home_url(); ?>')" class="btn btn-subscribe">Subscribe</button>
-        </div>
+            <div class="form-group">
+              <label >Email</label>
+              <input class="form-control es_textbox_class" name="es_txt_email_pg" id="es_txt_email_pg" onkeypress="if(event.keyCode==13) es_submit_pages('<?php echo get_home_url(); ?>')" value="" maxlength="225" type="text">
+            </div>
+            <input name="es_txt_group_pg" id="es_txt_group_pg" value="" type="hidden">
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" name="es_txt_button_pg" id="es_txt_button_pg" onclick="return es_submit_pages('<?php echo get_home_url(); ?>')" class="btn btn-subscribe">Subscribe</button>
+          </div>
+        </form>
       </div> <!-- /.modal-content -->
     </div> <!-- /.modal-dialog -->
   </div> <!-- /.modal -->
